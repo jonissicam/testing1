@@ -122,10 +122,6 @@ html{
 	color: 	#F8F8FF;/*snow*/
 }
 
-#logo:hover{
-	filter: invert(20%);
-}
-
 .frames{
 	text-align: center;
 	margin: 0 auto;
@@ -135,16 +131,20 @@ html{
 }
 
 a:hover, /* OPTIONAL*/
-a:visited,
 a:focus
 {
 	text-decoration: none;
 	color: #DC143C;/*crimson*/
 }
 
+.tabs:hover{
+	border-radius: 10px;
+	background-color: #DC143C;/*crimson*/
+}
+
 .navbar-nav > li > .dropdown-menu 
 {     
-	background-color: #e7e7e7;  
+	background-color: rgba(0,0,0,.5);  
 }
 
 /*mobile*/
@@ -158,6 +158,20 @@ a:focus
 	font-family: 'Boogaloo', cursive;
 	font-size: 50px;
 	color: 	#DC143C;/*crimson*/
+	}
+	.question{
+		text-decoration: none;
+		font-family: 'Boogaloo', cursive;
+		font-size: 30px;
+		line-height: 1em;
+		color: 	#DC143C;/*crimson*/
+	}
+	#question3{
+		text-decoration: none;
+		font-family: 'Boogaloo', cursive;
+		font-size: 22px;
+		line-height: 1em;
+		color: 	#DC143C;/*crimson*/
 	}
 	.paragraph-title{
 		text-decoration: none;
@@ -174,7 +188,6 @@ a:focus
 		min-height: 100vh;
 	}
 	#navihead{
-		position: relative;
 		text-align: center;
 	}
 
@@ -185,8 +198,9 @@ a:focus
 		transform: translate(-50%,-50%);
 	}
 	#title-home{
+	text-align: center;
 	padding: 0;
-	width: 300px;
+	width: 100%;
 	}
 
 	#logo{
@@ -196,7 +210,7 @@ a:focus
 
 	#hometitle{
 		text-decoration: none;
-	margin-left: 40px;
+	/*margin-left: 40px;*/
 	padding: 0;
 	font-family: murderer;
 	font-size: 125px;
@@ -309,6 +323,21 @@ a:focus
 		font-size: 50px;
 		color: 	#DC143C;/*crimson*/
 	}
+
+	.question{
+		text-decoration: none;
+		font-family: 'Boogaloo', cursive;
+		font-size: 30px;
+		line-height: 1em;
+		color: 	#DC143C;/*crimson*/
+	}
+	#question3{
+		text-decoration: none;
+		font-family: 'Boogaloo', cursive;
+		font-size: 30px;
+		line-height: 1em;
+		color: 	#DC143C;/*crimson*/
+	}
 	.paragraph-title{
 		font-family: 'Boogaloo', cursive;
 		font-size: 50px;
@@ -329,8 +358,9 @@ a:focus
 		text-align: center;
 	}
 	#title-home{
+	text-align: center;
 	padding: 0;
-	width: 300px;
+	width: 100%;
 	}
 
 	#logo{
@@ -339,7 +369,7 @@ a:focus
 	}
 	#hometitle{
 		text-decoration: none;
-	margin-left: 220px;
+	/*margin-left: 220px;*/
 	padding: 0;
 	font-family: murderer;
 	font-size: 135px;
@@ -453,6 +483,21 @@ a:focus
 		font-size: 50px;
 		color: 	#DC143C;/*crimson*/
 	}
+	
+	.question{
+		text-decoration: none;
+		font-family: 'Boogaloo', cursive;
+		font-size: 30px;
+		line-height: 1em;
+		color: 	#DC143C;/*crimson*/
+	}
+	#question3{
+		text-decoration: none;
+		font-family: 'Boogaloo', cursive;
+		font-size: 30px;
+		line-height: 1em;
+		color: 	#DC143C;/*crimson*/
+	}
 	.paragraph-title{
 		font-family: 'Boogaloo', cursive;
 		font-size: 30px;
@@ -470,11 +515,17 @@ a:focus
 		min-height: 100vh;
 	}
 	#navihead{
+		position: relative;
 		text-align: center;
 	}
 	#title-home{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
 	padding: 0;
-	width: 300px;
+	width: 40%;
 	}
 
 	#logo{
@@ -483,7 +534,7 @@ a:focus
 	}
 	#hometitle{
 	text-decoration: none;
-	margin-left: 500px;
+	/*margin-left: 500px;*/
 	padding: 0;
 	font-family: murderer;
 	font-size: 150px;
